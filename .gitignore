@@ -1,0 +1,28 @@
+node_modules
+dist
+.DS_Store
+
+# Local env — never commit keys
+.env
+.env.*.local
+.env.local
+
+# Carried over from the cloud-march monorepo root .gitignore
+node_modules/
+**/dist/
+**/dist-ssr/
+**/.next/
+**/.next-build/
+**/out/
+logs
+*.log
+npm-debug.log*
+*.local
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.tsbuildinfo
